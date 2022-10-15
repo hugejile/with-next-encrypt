@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "target": "ES6",
+    "module": "commonjs",
+    "skipLibCheck": true,
+    "declaration": true,
+    "outDir": "./lib",
+    "strict": true,
+    "allowSyntheticDefaultImports": true,
+    "removeComments": false,
+    "noImplicitThis": false,
+    "suppressImplicitAnyIndexErrors": true,
+    "watch": false,
+    "plugins": []
+  },
+  "exclude": ["node_modules"],
+  "include": ["src"]
+}
