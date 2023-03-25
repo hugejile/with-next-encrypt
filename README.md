@@ -1,6 +1,6 @@
 # with-next-encrypt
 
-Encrypt NEXT NEXT_DATA props. It's very important to encrypt sensitive data in some cases, for example, client side js rendering user's account, access token to avoid spider's Crawling, proxy caches.
+Encrypt NEXT NEXT_DATA props. It's very important to encrypt sensitive data in some cases, for example, client side js rendering user's account, access token. encrypt NEXT_DATA to avoid spider's Crawling, proxy caching.
 
 ## Install
 
@@ -80,3 +80,5 @@ html output **NEXT_DATA** should be
 ```html
 <script id="__NEXT_DATA__" type="application/json">{"props":{"pageProps":{"_encrypted":"EvfKzmG7G6ScSke+oYhNdMzdp3PQdnLY","_iv":"19837278","_type":"des"},"__N_SSP":true},"page":"/","query":{},"buildId":"development","isFallback":false,"gssp":true,"scriptLoader":[]}</script>
 ```
+
+Example app site: https://with-next-encrypt-example.vercel.app/
