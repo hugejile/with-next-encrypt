@@ -1,6 +1,6 @@
 {
   "name": "with-next-encrypt",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "nextjs encrypt props server side",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -34,10 +34,10 @@
   },
   "homepage": "https://github.com/hugejile/with-next-encrypt#readme",
   "dependencies": {
-    "@types/node": "^18.8.5",
     "crypto": "^1.0.1"
   },
   "devDependencies": {
+    "@types/node": "^18.8.5",
     "@types/react": "^18.0.21",
     "copyfiles": "^2.4.1",
     "cross-env": "^7.0.3",
@@ -45,5 +45,8 @@
     "react": "^18.2.0",
     "rimraf": "^3.0.2",
     "typescript": "^4.8.4"
+  },
+  "peerDependencies": {
+    "crypto": "^1.0.1"
   }
 }

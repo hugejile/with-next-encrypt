@@ -1,5 +1,6 @@
 import * as React from 'react'
 import { desDecrypt, defaultEncryptKey } from './utils/encrypt'
+import { Logs } from './utils/logs'
 
 interface Props {
   children?: React.ReactNode
@@ -20,7 +21,7 @@ export const AppEncryptProvider: React.FunctionComponent<Props & KeyProps> = ({ 
 }
 
 const getProps = (props: Props & KeyProps) => {
-  console.log('getProps', props)
+  Logs.debug('getProps', props)
   const { encryptKey = defaultEncryptKey, _encrypted: encrypted, _type: type, _iv: iv } = props
   switch (type) {
     case 'base64':
